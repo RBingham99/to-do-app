@@ -1,0 +1,46 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family:Calibri, Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    padding: 1rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    padding-bottom: 4rem;
+}
+
+#allTasks {
+    width: 70%;
+    border: 2px solid red;
+
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+.task {
+    border: 2px solid green;
+    /*width: 60%;*/
+
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 2rem;
+    height: auto;
+    margin-left: 1rem;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 1rem 10rem 1rem 0;
+}
